@@ -6,7 +6,7 @@
 ## Procedimiento:
 ### Nivel 1:
 ### Coloca la primera reina en una columna de la primera fila.
-´´´
+```
 [R][ ][ ][ ][ ][ ][ ][ ] 1
 [ ][ ][ ][ ][ ][ ][ ][ ] 2
 [ ][ ][ ][ ][ ][ ][ ][ ] 3
@@ -15,7 +15,7 @@
 [ ][ ][ ][ ][ ][ ][ ][ ] 6
 [ ][ ][ ][ ][ ][ ][ ][ ] 7
 [ ][ ][ ][ ][ ][ ][ ][ ] 8
-´´´
+```
 ### Nivel 2:
 ### Coloca la segunda reina en una columna de la segunda fila que no esté atacada por la reina en la primera fila.
 ```
