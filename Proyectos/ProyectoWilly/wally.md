@@ -7,10 +7,10 @@ import cv2 as cv
 import os
 import math
 
-image = cv.imread(r'D:\\IA\\Proyecto_2 Waldo\\wally_12.jpg')
+image = cv.imread(r'D:\\IA\\Proyecto wally\\wally_12.jpg')
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
-wally = cv.CascadeClassifier(r'D:\\IA\\Proyecto_2 Waldo\\cascade1.xml')
+wally = cv.CascadeClassifier(r'D:\\IA\\Proyecto wally\\cascade1.xml')
 
 waldo_detections = wally.detectMultiScale(gray, 1.1, 20, minSize=(40,40))
 
@@ -52,13 +52,13 @@ cv.destroyAllWindows()
 import cv2 as cv
 
 # Cargar la imagen
-image = cv.imread(r'D:\IA\Proyecto_2 Waldo\wally_10.png')
+image = cv.imread(r'D:\IA\Proyecto wally\wally_10.png')
 
 # Convertir la imagen a escala de grises
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
 
 # Cargar el clasificador en cascada
-wally = cv.CascadeClassifier(r'D:\IA\Proyecto_2 Waldo\cascade.xml')
+wally = cv.CascadeClassifier(r'D:\IA\Proyecto wally\cascade.xml')
 
 # Detectar a Wally
 waldo_detections = wally.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=2, minSize=(5, 5))
